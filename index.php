@@ -60,7 +60,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 2.14 (open source)</h3>
+<h3>Cppcheck 2.20 (open source)</h3>
 <table width="80%" class="table" >
   <tr>
     <th width="75%">Platform</th>
@@ -68,15 +68,15 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.14.1/cppcheck-2.14.1-x64-Setup.msi">Installer</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.20.0/cppcheck-2.20.0-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.14.1.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.20.0.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.14.1.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.20.0.tar.gz">Archive</a></td>
   </tr>
 </table>
 
@@ -218,13 +218,14 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li><strong>CppDepend 5</strong> - <a href="http://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
   <li><strong>Eclipse</strong> - <a href="https://github.com/cppchecksolutions/cppcheclipse/wiki/Installation">Cppcheclipse</a></li>
   <li><strong>gedit</strong> - <a href="http://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
-  <li><strong>github</strong> - <a href="https://www.codacy.com/">Codacy</a> and <a href="http://www.softacheck.com/">SoftaCheck</a></li>
+  <li><strong>github</strong> - <a href="https://www.codacy.com/">Codacy</a>, <a href="https://www.codety.io/">Codety</a> and <a href="http://www.softacheck.com/">SoftaCheck</a></li>
   <li><strong>Hudson</strong> - <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>Jenkins</strong> - <a href="http://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>KDevelop</strong> - <a href="https://kdevelop.org/">integrated since v5.1</a></li>
   <li><strong>Mercurial (Linux)</strong> - <a href="http://sourceforge.net/p/cppcheck/wiki/mercurialhook/">pre-commit hook</a> - Check for new errors on commit (requires interactive terminal)</li>
   <li><strong>QtCreator</strong> - <a href="https://sourceforge.net/projects/qtprojecttool/files">Qt Project Tool (qpt)</a></li>
   <li><strong>Tortoise SVN</strong> - <a href="http://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
+  <li><strong>Vim</strong> - <a href="https://vimhelp.org/quickfix.txt.html#compiler-cppcheck">Vim Compiler</a></li>
   <li><strong>Visual Studio</strong> - <a href="https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/latest">Visual Studio plugin</a></li>
   <li><strong>VScode</strong> - <a href="https://marketplace.visualstudio.com/items?itemName=NathanJ.cppcheck-plugin">VScode plugin</a></li>
 </ul>
