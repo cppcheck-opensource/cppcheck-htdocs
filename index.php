@@ -186,21 +186,21 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <p>Security experts recommend that static analysis is used. And using several tools is the best approach from a security perspective.</p>
 
 <h3 id="coding-standards">Coding standards</h3>
-<table border="1" bgcolor="white">
-<tr><th>Coding standard</th><th>&nbsp;Open Source&nbsp;</th><th>&nbsp;Premium&nbsp;</th></tr>
-<tr><td>&nbsp;Misra C 2012 - original rules&nbsp;</td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #1&nbsp;</td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #2&nbsp;</td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #3&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #4&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - Compliance report&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - Rule texts&nbsp;</td><td>&nbsp;User provided</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2023&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C++ 2008&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C++ 2023&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Cert C&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Cert C++&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Autosar&nbsp;</td><td></td><td>&nbsp;<a href="https://files.cppchecksolutions.com/autosar.html">Partial</a></td></tr>
+<table class="table">
+  <tr><th>Coding standard</th><th>Open Source</th><th align="center">Premium</th></tr>
+  <tr><td>Misra C 2012 - original rules</td><td>Partial</td><td align="center">Yes</td></tr>
+  <tr><td>Misra C 2012 - amendment #1</td><td>Partial</td><td align="center">Yes</td></tr>
+  <tr><td>Misra C 2012 - amendment #2</td><td>Partial</td><td align="center">Yes</td></tr>
+  <tr><td>Misra C 2012 - amendment #3</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Misra C 2012 - amendment #4</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Misra C 2012 - Compliance report</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Misra C 2012 - Rule texts</td><td>User provided</td><td align="center">Yes</td></tr>
+  <tr><td>Misra C 2023</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Misra C++ 2008</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Misra C++ 2023</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Cert C</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Cert C++</td><td></td><td align="center">Yes</td></tr>
+  <tr><td>Autosar</td><td></td><td align="center"><a href="https://files.cppchecksolutions.com/autosar.html">Partial</a></td></tr>
 </table>
 
 
