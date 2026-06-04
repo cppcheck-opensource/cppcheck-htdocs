@@ -108,7 +108,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 {
     int buf[10];
     if (x == 1000)
-        buf[x] = 0; // <- ERROR
+        buf[x] = 0; // &lt;- ERROR
 }</pre>
 
 <p>Most tools can determine that the array index will be 1000 and there will be overflow.</p>
@@ -118,7 +118,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 <pre>void foo(int x)
 {
     int buf[10];
-    buf[x] = 0; // <- ERROR
+    buf[x] = 0; // &lt;- ERROR
     if (x == 1000) {}
 }</pre>
 
@@ -187,20 +187,20 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 
 <h3 id="coding-standards">Coding standards</h3>
 <table border="1" bgcolor="white">
-<tr><th>Coding standard<th><th>&nbsp;Open Source&nbsp;</th><th>&nbsp;Premium&nbsp;</th></tr>
-<tr><td>&nbsp;Misra C 2012 - original rules&nbsp;<td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #1&nbsp;<td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #2&nbsp;<td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #3&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #4&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - Compliance report&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - Rule texts&nbsp;<td><td>&nbsp;User provided</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2023&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C++ 2008&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C++ 2023&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Cert C&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Cert C++&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Autosar&nbsp;<td><td></td><td>&nbsp;<a href="https://files.cppchecksolutions.com/autosar.html">Partial</a></td></tr>
+<tr><th>Coding standard</th><th>&nbsp;Open Source&nbsp;</th><th>&nbsp;Premium&nbsp;</th></tr>
+<tr><td>&nbsp;Misra C 2012 - original rules&nbsp;</td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #1&nbsp;</td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #2&nbsp;</td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #3&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #4&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - Compliance report&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - Rule texts&nbsp;</td><td>&nbsp;User provided</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2023&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C++ 2008&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C++ 2023&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Cert C&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Cert C++&nbsp;</td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Autosar&nbsp;</td><td></td><td>&nbsp;<a href="https://files.cppchecksolutions.com/autosar.html">Partial</a></td></tr>
 </table>
 
 
