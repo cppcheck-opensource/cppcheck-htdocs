@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="/site/css/pack.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="alternate" type="application/atom+xml" title="Recent Commits to cppcheck:main"
-        href="https://github.com/danmar/cppcheck/commits/main.atom" />
+        href="https://github.com/cppcheck-opensource/cppcheck/commits/main.atom" />
   <link rel="alternate" type="application/atom+xml" title="Trac Timeline"
         href="http://trac.cppcheck.net/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
   <link rel="alternate" type="application/atom+xml" title="Latest Forum Posts"
@@ -60,17 +60,17 @@
 <div id="content">
   <div class="wrap">
 <h2 id="source-code">Source Code</h2>
-<p>Latest version can be found in the <a href="https://github.com/danmar/cppcheck/">
+<p>Latest version can be found in the <a href="https://github.com/cppcheck-opensource/cppcheck/">
 cppcheck git repository</a>.</p>
 <p>To get the source code using git:</p>
-<pre class="cmd">git clone https://github.com/danmar/cppcheck.git</pre>
-<p>You can also <a href="https://github.com/danmar/cppcheck/releases">download
+<pre class="cmd">git clone https://github.com/cppcheck-opensource/cppcheck.git</pre>
+<p>You can also <a href="https://github.com/cppcheck-opensource/cppcheck/releases">download
 the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h3>Formatting</h3>
 <p>We use <a href="https://github.com/uncrustify/uncrustify/releases/tag/uncrustify-0.72.0">uncrustify-0.72</a> to format Cppcheck source code.</p>
 <h3>Recent Commits</h3>
-<div id="github-commits"><a href="https://github.com/danmar/cppcheck/commits/main">View recent commits&hellip;</a></div>
-<p><a href="https://github.com/danmar/cppcheck/commits/main">View all commits&hellip;</a></p>
+<div id="github-commits"><a href="https://github.com/cppcheck-opensource/cppcheck/commits/main">View recent commits&hellip;</a></div>
+<p><a href="https://github.com/cppcheck-opensource/cppcheck/commits/main">View all commits&hellip;</a></p>
 <h2 id="latest-forum-posts">Latest Forum Posts</h2>
 <?php
   require '../site/simplepie/simplepie.php';
