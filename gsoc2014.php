@@ -23,7 +23,7 @@
       <li><a href="http://5.150.254.56:443/trac-cppcheck/">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>
       <li><a href="/demo/">Online Demo</a></li>
-      <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
+      <li><a href="https://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #tabs -->
@@ -73,7 +73,7 @@
     etc) the interpreter shall bailout. You will interpret the loop expressions until : the loop finish , or
     there is a timeout , or the variables are unchanged. During the interpretation, the variable values will be
     recorded and saved as ValueFlow values. You can read an overview of the Cppcheck syntax tree and ValueFlow
-    analysis in the <a href="http://sourceforge.net/projects/cppcheck/files/Articles/cppcheck-design.pdf">cppcheck
+    analysis in the <a href="https://sourceforge.net/projects/cppcheck/files/Articles/cppcheck-design.pdf">cppcheck
     design</a> document.
   </p>
 

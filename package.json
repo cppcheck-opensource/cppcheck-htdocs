@@ -9,7 +9,7 @@
     "url": "https://github.com/cppcheck-opensource/cppcheck.git"
   },
   "bugs": {
-    "url": "http://sourceforge.net/apps/trac/cppcheck/wiki"
+    "url": "https://sourceforge.net/apps/trac/cppcheck/wiki"
   },
   "license": "GPLv3",
   "main": "make.js",

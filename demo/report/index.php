@@ -89,10 +89,10 @@
   <div class="wrap">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="http://trac.cppcheck.net/trac-cppcheck/">Issues</a></li>
+      <li><a href="https://trac.cppcheck.net/trac-cppcheck/">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>
       <li><em><a href="/demo/">Online Demo</a></em></li>
-      <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
+      <li><a href="https://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #tabs -->

@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron&amp;text=Cppcheck" />
   <link rel="stylesheet" type="text/css" href="/site/css/pack.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="alternate" type="application/rss+xml" title="Project News" href="http://sourceforge.net/p/cppcheck/news/feed" />
+  <link rel="alternate" type="application/rss+xml" title="Project News" href="https://sourceforge.net/p/cppcheck/news/feed" />
 </head>
 <body>
 <div id="header">
@@ -21,12 +21,12 @@
   <div class="wrap">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
-      <li><a href="http://trac.cppcheck.net">Issues</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
+      <li><a href="https://trac.cppcheck.net">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>
       <li><a href="/demo/">Online Demo</a></li>
-      <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
+      <li><a href="https://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #tabs -->

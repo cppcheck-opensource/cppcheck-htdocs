@@ -20,12 +20,12 @@
   <div class="wrap">
     <ul>
       <li><strong><a href="/">Home</a></strong></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
-      <li><a href="http://trac.cppcheck.net">Issues</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
+      <li><a href="https://trac.cppcheck.net">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>
       <li><a href="/demo/">Online Demo</a></li>
-      <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
+      <li><a href="https://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #tabs -->
