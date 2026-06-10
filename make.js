@@ -35,8 +35,7 @@
 
         // pack.css
         var inCss = cat(["site/css/normalize.css",
-                         "site/css/all.css",
-                         "site/css/demo.css"]);
+                         "site/css/all.css"]);
 
         var minifier = new CleanCSS({
             keepSpecialComments: 0,

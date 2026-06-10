@@ -281,9 +281,6 @@ AddDefaultCharset utf-8
     # (5)
     # RewriteOptions <options>
 
-    # Redirect "democlient.html" to the new place...
-    Redirect permanent /democlient.html https://cppcheck.sourceforge.io/demo/
-
     # Redirect "devinfo.html" to the new place...
     Redirect permanent /devinfo.html https://cppcheck.sourceforge.io/devinfo/
 
