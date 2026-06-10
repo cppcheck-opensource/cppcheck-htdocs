@@ -40,7 +40,6 @@
       <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
       <li><a href="http://trac.cppcheck.net">Issues</a></li>
       <li><strong><a href="/devinfo/" title="Developer Information">Developer Info</a></strong></li>
-      <li><a href="/demo/">Online Demo</a></li>
       <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
