@@ -13,7 +13,7 @@ uninitialized variables, unused functions" />
   <link rel="stylesheet" type="text/css" href="/site/css/pack.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="alternate" type="application/rss+xml" title="Project News"
-        href="http://sourceforge.net/p/cppcheck/news/feed" />
+        href="https://sourceforge.net/p/cppcheck/news/feed" />
 </head>
 <body>
 <div id="header">
@@ -26,11 +26,11 @@ uninitialized variables, unused functions" />
   <div class="wrap">
     <ul>
       <li><strong><a href="/">Home</a></strong></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
-      <li><a href="http://trac.cppcheck.net">Issues</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
+      <li><a href="https://trac.cppcheck.net">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>
-      <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
+      <li><a href="https://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #tabs -->
@@ -49,7 +49,7 @@ uninitialized variables, unused functions" />
 <div id="content">
   <div class="wrap">
 <p>
-<strong>Cppcheck</strong> is a <a href="http://en.wikipedia.org/wiki/Static_analysis_tool">static analysis tool</a>
+<strong>Cppcheck</strong> is a <a href="https://en.wikipedia.org/wiki/Static_analysis_tool">static analysis tool</a>
 for C/C++ code. It provides <a href="#unique">unique code analysis</a> to detect bugs and focuses on detecting undefined behaviour and
 dangerous coding constructs. The goal is to have very few false positives.
 Cppcheck is designed to be able to analyze your C/C++ code even if it has non-standard syntax (common in embedded projects).
@@ -204,7 +204,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 
 
 <h3>All checks</h3>
-<p>For a list of all checks in Cppcheck see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
+<p>For a list of all checks in Cppcheck see: <a href="https://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
 
 <h2>Clients and plugins</h2>
 <p>Cppcheck is integrated with many popular development tools. For instance:</p>
@@ -212,18 +212,18 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li><strong>Buildbot</strong> - <a href="https://docs.buildbot.net/latest/manual/configuration/steps/cppcheck.html">integrated</a></li>
   <li><strong>CLion</strong> - <a href="https://plugins.jetbrains.com/plugin/8143">Cppcheck plugin</a></li>
   <li><strong>Code::Blocks</strong> - <em>integrated</em></li>
-  <li><strong>CodeDX</strong> (software assurance tool) - <a href="http://codedx.com/code-dx-standard/">integrated</a></li>
+  <li><strong>CodeDX</strong> (software assurance tool) - <a href="https://codedx.com/code-dx-standard/">integrated</a></li>
   <li><strong>CodeLite</strong> - <em>integrated</em></li>
-  <li><strong>CppDepend 5</strong> - <a href="http://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
+  <li><strong>CppDepend 5</strong> - <a href="https://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
   <li><strong>Eclipse</strong> - <a href="https://github.com/cppchecksolutions/cppcheclipse/wiki/Installation">Cppcheclipse</a></li>
-  <li><strong>gedit</strong> - <a href="http://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
+  <li><strong>gedit</strong> - <a href="https://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
   <li><strong>github</strong> - <a href="https://www.codacy.com/">Codacy</a>, <a href="https://www.codety.io/">Codety</a> and <a href="http://www.softacheck.com/">SoftaCheck</a></li>
-  <li><strong>Hudson</strong> - <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
-  <li><strong>Jenkins</strong> - <a href="http://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
+  <li><strong>Hudson</strong> - <a href="https://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
+  <li><strong>Jenkins</strong> - <a href="https://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>KDevelop</strong> - <a href="https://kdevelop.org/">integrated since v5.1</a></li>
-  <li><strong>Mercurial (Linux)</strong> - <a href="http://sourceforge.net/p/cppcheck/wiki/mercurialhook/">pre-commit hook</a> - Check for new errors on commit (requires interactive terminal)</li>
+  <li><strong>Mercurial (Linux)</strong> - <a href="https://sourceforge.net/p/cppcheck/wiki/mercurialhook/">pre-commit hook</a> - Check for new errors on commit (requires interactive terminal)</li>
   <li><strong>QtCreator</strong> - <a href="https://sourceforge.net/projects/qtprojecttool/files">Qt Project Tool (qpt)</a></li>
-  <li><strong>Tortoise SVN</strong> - <a href="http://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
+  <li><strong>Tortoise SVN</strong> - <a href="https://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
   <li><strong>Vim</strong> - <a href="https://vimhelp.org/quickfix.txt.html#compiler-cppcheck">Vim Compiler</a></li>
   <li><strong>Visual Studio</strong> - <a href="https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/latest">Visual Studio plugin</a></li>
   <li><strong>VScode</strong> - <a href="https://marketplace.visualstudio.com/items?itemName=CppcheckSolutionsAB.cppcheck-official">VScode plugin</a></li>
@@ -257,11 +257,11 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 
 <h2 id="documentation">Documentation</h2>
 <p>You can read the <a href="manual.pdf">manual</a> or download some
-<a href="http://sourceforge.net/projects/cppcheck/files/Articles/">articles</a>.</p>
+<a href="https://sourceforge.net/projects/cppcheck/files/Articles/">articles</a>.</p>
 
 <h2 id="support">Support</h2>
 <ul>
-  <li>Use <a href="http://trac.cppcheck.net">Trac</a> to report bugs and feature requests</li>
+  <li>Use <a href="https://trac.cppcheck.net">Trac</a> to report bugs and feature requests</li>
   <li>Ask questions at the IRC channel <a href="irc://irc.libera.chat/#cppcheck">#cppcheck</a></li>
 </ul>
 
@@ -280,10 +280,10 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <dl>
   <dt>Testing</dt>
   <dd>Pick a project and test its source with the latest version of Cppcheck.
-  Submit tickets to <a href="http://trac.cppcheck.net">Trac</a> about the
+  Submit tickets to <a href="https://trac.cppcheck.net">Trac</a> about the
   issues you find in Cppcheck.</dd>
   <dt>Developing</dt>
-  <dd>Pick a ticket from <a href="http://trac.cppcheck.net">Trac</a>,
+  <dd>Pick a ticket from <a href="https://trac.cppcheck.net">Trac</a>,
   write a test case for it (and write a comment to the ticket for which that
   test case has been created). Alternatively, pick a test case that fails and
   try to fix it. Make a patch and submit it to Trac either inline, if it is
@@ -293,7 +293,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   have, the more people we have testing and the better we can become.</dd>
   <dt>Design</dt>
   <dd>Come up with some new good checks, and create tickets in
-  <a href="http://trac.cppcheck.net">the Trac instance</a>
+  <a href="https://trac.cppcheck.net">the Trac instance</a>
   about them.</dd>
   <dt>Integration</dt>
   <dd>Write a plugin for your favorite IDE or create a package for your

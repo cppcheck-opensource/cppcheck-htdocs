@@ -9,9 +9,9 @@
   <link rel="alternate" type="application/atom+xml" title="Recent Commits to cppcheck:main"
         href="https://github.com/danmar/cppcheck/commits/main.atom" />
   <link rel="alternate" type="application/atom+xml" title="Trac Timeline"
-        href="http://trac.cppcheck.net/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
+        href="https://trac.cppcheck.net/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
   <link rel="alternate" type="application/atom+xml" title="Latest Forum Posts"
-        href="http://sourceforge.net/p/cppcheck/discussion/feed" />
+        href="https://sourceforge.net/p/cppcheck/discussion/feed" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
   <script type="text/javascript">
     //<![CDATA[
@@ -36,11 +36,11 @@
   <div class="wrap">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
-      <li><a href="http://trac.cppcheck.net">Issues</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
+      <li><a href="https://trac.cppcheck.net">Issues</a></li>
       <li><strong><a href="/devinfo/" title="Developer Information">Developer Info</a></strong></li>
-      <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
+      <li><a href="https://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #tabs -->
@@ -48,7 +48,7 @@
   <div class="wrap">
     <ul>
       <li><a href="#source-code">Source Code</a></li>
-      <li><a href="http://trac.cppcheck.net/timeline">Trac Timeline</a></li>
+      <li><a href="https://trac.cppcheck.net/timeline">Trac Timeline</a></li>
       <li><a href="#latest-forum-posts">Latest Forum Posts</a></li>
       <li><a href="#doxygen">Doxygen</a></li>
       <li><a href="#scan">Scan</a></li>
@@ -75,7 +75,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   require '../site/simplepie/simplepie.php';
 
   $feed = new SimplePie();
-  $feed->set_feed_url('http://sourceforge.net/p/cppcheck/discussion/feed');
+  $feed->set_feed_url('https://sourceforge.net/p/cppcheck/discussion/feed');
   $feed->set_cache_location('../site/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -89,7 +89,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   }
   print("</ul>\n");
 ?>
-<p><a href="http://sourceforge.net/p/cppcheck/discussion/">View forum&hellip;</a></p>
+<p><a href="https://sourceforge.net/p/cppcheck/discussion/">View forum&hellip;</a></p>
 <h2 id="doxygen">Doxygen</h2>
 <ul>
   <li><a href="doxyoutput/">Output</a></li>
