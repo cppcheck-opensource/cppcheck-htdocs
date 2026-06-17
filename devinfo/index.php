@@ -7,11 +7,11 @@
   <link rel="stylesheet" type="text/css" href="/site/css/pack.css" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="alternate" type="application/atom+xml" title="Recent Commits to cppcheck:main"
-        href="https://github.com/danmar/cppcheck/commits/main.atom" />
+        href="https://github.com/cppcheck-opensource/cppcheck/commits/main.atom" />
   <link rel="alternate" type="application/atom+xml" title="Trac Timeline"
-        href="http://trac.cppcheck.net/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
+        href="https://trac.cppcheck.net/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
   <link rel="alternate" type="application/atom+xml" title="Latest Forum Posts"
-        href="http://sourceforge.net/p/cppcheck/discussion/feed" />
+        href="https://sourceforge.net/p/cppcheck/discussion/feed" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
   <script type="text/javascript">
     //<![CDATA[
@@ -21,7 +21,7 @@
   <script src="/site/js/pack.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(function() {
-      $("#github-commits").listCommits("danmar", "cppcheck", "main");
+      $("#github-commits").listCommits("cppcheck-opensource", "cppcheck", "main");
     });
   </script>
 </head>
@@ -36,11 +36,11 @@
   <div class="wrap">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
-      <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
-      <li><a href="http://trac.cppcheck.net">Issues</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
+      <li><a href="https://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
+      <li><a href="https://trac.cppcheck.net">Issues</a></li>
       <li><strong><a href="/devinfo/" title="Developer Information">Developer Info</a></strong></li>
-      <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
+      <li><a href="https://sourceforge.net/projects/cppcheck/">Project page</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #tabs -->
@@ -48,7 +48,7 @@
   <div class="wrap">
     <ul>
       <li><a href="#source-code">Source Code</a></li>
-      <li><a href="http://trac.cppcheck.net/timeline">Trac Timeline</a></li>
+      <li><a href="https://trac.cppcheck.net/timeline">Trac Timeline</a></li>
       <li><a href="#latest-forum-posts">Latest Forum Posts</a></li>
       <li><a href="#doxygen">Doxygen</a></li>
       <li><a href="#scan">Scan</a></li>
@@ -59,23 +59,23 @@
 <div id="content">
   <div class="wrap">
 <h2 id="source-code">Source Code</h2>
-<p>Latest version can be found in the <a href="https://github.com/danmar/cppcheck/">
+<p>Latest version can be found in the <a href="https://github.com/cppcheck-opensource/cppcheck/">
 cppcheck git repository</a>.</p>
 <p>To get the source code using git:</p>
-<pre class="cmd">git clone https://github.com/danmar/cppcheck.git</pre>
-<p>You can also <a href="https://github.com/danmar/cppcheck/releases">download
+<pre class="cmd">git clone https://github.com/cppcheck-opensource/cppcheck.git</pre>
+<p>You can also <a href="https://github.com/cppcheck-opensource/cppcheck/releases">download
 the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h3>Formatting</h3>
 <p>We use <a href="https://github.com/uncrustify/uncrustify/releases/tag/uncrustify-0.72.0">uncrustify-0.72</a> to format Cppcheck source code.</p>
 <h3>Recent Commits</h3>
-<div id="github-commits"><a href="https://github.com/danmar/cppcheck/commits/main">View recent commits&hellip;</a></div>
-<p><a href="https://github.com/danmar/cppcheck/commits/main">View all commits&hellip;</a></p>
+<div id="github-commits"><a href="https://github.com/cppcheck-opensource/cppcheck/commits/main">View recent commits&hellip;</a></div>
+<p><a href="https://github.com/cppcheck-opensource/cppcheck/commits/main">View all commits&hellip;</a></p>
 <h2 id="latest-forum-posts">Latest Forum Posts</h2>
 <?php
   require '../site/simplepie/simplepie.php';
 
   $feed = new SimplePie();
-  $feed->set_feed_url('http://sourceforge.net/p/cppcheck/discussion/feed');
+  $feed->set_feed_url('https://sourceforge.net/p/cppcheck/discussion/feed');
   $feed->set_cache_location('../site/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -89,7 +89,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   }
   print("</ul>\n");
 ?>
-<p><a href="http://sourceforge.net/p/cppcheck/discussion/">View forum&hellip;</a></p>
+<p><a href="https://sourceforge.net/p/cppcheck/discussion/">View forum&hellip;</a></p>
 <h2 id="doxygen">Doxygen</h2>
 <ul>
   <li><a href="doxyoutput/">Output</a></li>
@@ -103,7 +103,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h2 id="other">Other</h2>
 <ul>
   <li><a href="coverage_report/">Coverage report</a></li>
-  <li><a hre="https://codecov.io/gh/danmar/cppcheck">Alternative Coverage site</a></li>
+  <li><a href="https://codecov.io/gh/cppcheck-opensource/cppcheck">Alternative Coverage site</a></li>
   <li><a href="cpd.txt">CPD - copy pasted code</a></li>
   <li><a href="keywords.txt">Trac keywords</a></li>
 </ul>
