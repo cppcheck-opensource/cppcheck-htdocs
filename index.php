@@ -204,7 +204,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 
 
 <h3>All checks</h3>
-<p>For a list of all checks in Cppcheck see: <a href="https://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
+<p>For a list of all checks in Cppcheck see: <a href="https://sourceforge.net/p/cppcheck/wiki/ListOfChecks">https://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
 
 <h2>Clients and plugins</h2>
 <p>Cppcheck is integrated with many popular development tools. For instance:</p>
@@ -217,7 +217,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li><strong>CppDepend 5</strong> - <a href="https://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
   <li><strong>Eclipse</strong> - <a href="https://github.com/cppchecksolutions/cppcheclipse/wiki/Installation">Cppcheclipse</a></li>
   <li><strong>gedit</strong> - <a href="https://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
-  <li><strong>github</strong> - <a href="https://www.codacy.com/">Codacy</a>, <a href="https://www.codety.io/">Codety</a> and <a href="http://www.softacheck.com/">SoftaCheck</a></li>
+  <li><strong>github</strong> - <a href="https://www.codacy.com/">Codacy</a>, <a href="https://www.codety.io/">Codety</a> and <a href="https://www.softacheck.com/">SoftaCheck</a></li>
   <li><strong>Hudson</strong> - <a href="https://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>Jenkins</strong> - <a href="https://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>KDevelop</strong> - <a href="https://kdevelop.org/">integrated since v5.1</a></li>
