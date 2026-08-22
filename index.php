@@ -221,6 +221,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li><strong>Hudson</strong> - <a href="https://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>Jenkins</strong> - <a href="https://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>KDevelop</strong> - <a href="https://kdevelop.org/">integrated since v5.1</a></li>
+  <li><strong>MegaLinter</strong> (CI linters aggregator) - <a href="https://megalinter.io/latest/descriptors/c_cppcheck/">integrated</a></li>
   <li><strong>Mercurial (Linux)</strong> - <a href="https://sourceforge.net/p/cppcheck/wiki/mercurialhook/">pre-commit hook</a> - Check for new errors on commit (requires interactive terminal)</li>
   <li><strong>QtCreator</strong> - <a href="https://sourceforge.net/projects/qtprojecttool/files">Qt Project Tool (qpt)</a></li>
   <li><strong>Tortoise SVN</strong> - <a href="https://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
